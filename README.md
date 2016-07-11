@@ -7,7 +7,9 @@ docker build explorer/sbfspot-collector .
 ```
 
 ## Running SBFspot collector
+```
 docker run -it -v /etc/localtime:/etc/localtime:ro -v /home/sbfspot/data:/var/smadata -v /home/sbfspot/config/SBFspot.cfg:/opt/sbfspot/SBFspot.cfg --net=host --privileged --name sbfspot-collector explorer/sbfspot-collector
+```
 
 ## Configure crontab on Docker host
 
