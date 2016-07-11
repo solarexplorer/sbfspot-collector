@@ -1,4 +1,4 @@
-FROM explorer/sbfspot-sqlite3-base:latest
+FROM solarexplorer/sbfspot-sqlite3-pi-base:latest
 
 ENV SMADATA /var/smadata
 ENV SBFSPOTDIR /opt/sbfspot
