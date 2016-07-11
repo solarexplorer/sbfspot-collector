@@ -3,7 +3,7 @@ SBFspot collector image
 
 ## Building
 ```
-docker build explorer/sbfspot-collector .
+docker build solarexplorer/sbfspot-collector .
 ```
 
 ## Running SBFspot collector
